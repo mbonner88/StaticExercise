@@ -6,7 +6,9 @@ namespace StaticExercise
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            TempConverter.FahrenheitToCelsius(32);
+
+            TempConverter.CelsiusToFahrenheit(0);
         }
     }
 }
